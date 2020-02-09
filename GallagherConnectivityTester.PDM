@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=Gallagher Connectivity Tester
+
+
+[Package|Gallagher Connectivity Tester|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\GallagherConnectionTester\Package
+
+[Package|Gallagher Connectivity Tester|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Gallagher Connectivity Tester|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Gallagher Connectivity Tester|Files Found]
+
+[Package|Gallagher Connectivity Tester|Files Released]
+
+[Package|Gallagher Connectivity Tester|Missing Dependency Information]
+
+[Package|Gallagher Connectivity Tester|Out-of-Date Dependency Information]
+
+[Package|Gallagher Connectivity Tester|Files Added]
+C:\GallagherConnectionTester\gallagher-security-logo.jpg=
+
+[Package|Gallagher Connectivity Tester|Files Removed]
+
+[Package|Gallagher Connectivity Tester|Files In Project]
+C:\GallagherConnectionTester\GallagherConnectivityTester.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\GallagherConnectionTester\gallagher-security-logo.jpg=Yes
+
+[Package|Gallagher Connectivity Tester|Configure Registry Files]
+Applicable=No
+
+[Package|Gallagher Connectivity Tester|Configure Remote Servers]
+Applicable=No
+
+[Package|Gallagher Connectivity Tester|Install Locations]
+C:\GallagherConnectionTester\GallagherConnectivityTester.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\GallagherConnectionTester\gallagher-security-logo.jpg=$(AppPath)
+
+[Package|Gallagher Connectivity Tester|Configure Shared Files]
+Applicable=Yes
+C:\GallagherConnectionTester\GallagherConnectivityTester.exe=No
+C:\GallagherConnectionTester\gallagher-security-logo.jpg=No
+
+[Package|Gallagher Connectivity Tester|Distribution]
+Type=single
+Size=
+Title=GallagherConnectivityTester
+
+[Package|Gallagher Connectivity Tester|IconGroups]
+Group0=GallagherConnectivityTester
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Gallagher Connectivity Tester|GallagherConnectivityTester]
+Icon1=GallagherConnectivityTester.exe
+Title1=GallagherConnectivityTester
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Gallagher Connectivity Tester|Package]
+PackageFolder=C:\GallagherConnectionTester\Package
+ProjectFolder=C:\GallagherConnectionTester
+ServerSideCab=
+File1=C:\GallagherConnectionTester\Package\setup.exe
+File2=C:\GallagherConnectionTester\Package\Setup.Lst
+File3=C:\GallagherConnectionTester\Package\GallagherConnectivityTester.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
